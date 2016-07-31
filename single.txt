@@ -1,0 +1,64 @@
+[{
+	"name": "Toxi-gel",
+	"code": "b7389038edf86e84f78476efac8c4eda",
+	"slug": "toxi-gel",
+	"type": "Passive",
+	"cost": 5,
+	"images": {
+		"medium_stats": "\/\/developer-paragon-cdn.epicgames.com\/Images\/F44647FF2B651FDBBDE7BA2BE22E47AC69A89974.png",
+		"large": "\/\/developer-paragon-cdn.epicgames.com\/Images\/2A71780FCEFD6D789D439D1F0F0444E109BF4EB8.png",
+		"large_stats": "\/\/developer-paragon-cdn.epicgames.com\/Images\/1840F5E1B3EEAA0366C8C699010FB2DA2135EE9D.png",
+		"icon": "\/\/developer-paragon-cdn.epicgames.com\/Images\/6890EB24D95202ABE183C59065124E1482D60D6F.png",
+		"medium": "\/\/developer-paragon-cdn.epicgames.com\/Images\/58001AB8CDDB3D2C63079C590487A04BE700E546.png"
+	},
+	"upgradeSlots": 3,
+	"affinity": "Intellect",
+	"rarity": "Rare",
+	"effects": [{
+		"stat": "MaxHealth",
+		"value": 200
+	}, {
+		"stat": "HealthRegenRate",
+		"value": 1.3999999761581
+	}, {
+		"description": "While Poisoned, gain +110 {attr:physar} and {attr:enar} against Critical Strikes.",
+		"passive": true,
+		"unique": true
+	}],
+	"background": "2A71780FCEFD6D789D439D1F0F0444E109BF4EB8",
+	"icon": "6890EB24D95202ABE183C59065124E1482D60D6F"
+}, {
+	"name": "Barrier of Will",
+	"code": "b9b312a78b2e61f1671fb8d76c370b4f",
+	"slug": "barrier-of-will",
+	"type": "Active",
+	"cost": 6,
+	"images": {
+		"medium_stats": "\/\/developer-paragon-cdn.epicgames.com\/Images\/52DE4D749820260EFE3A880A0CD3EF629F0561C9.png",
+		"large": "\/\/developer-paragon-cdn.epicgames.com\/Images\/354DDA877AB4690EFFB45F9A346A3F43B02F3BB1.png",
+		"large_stats": "\/\/developer-paragon-cdn.epicgames.com\/Images\/C41B89E576BC9BF8F6039D9160CF6D9EEFA17FFF.png",
+		"icon": "\/\/developer-paragon-cdn.epicgames.com\/Images\/C50451E56AB2B98EB7D779BF94A13BE9467E9BD9.png",
+		"medium": "\/\/developer-paragon-cdn.epicgames.com\/Images\/369DE4AEA826C511A231F8456081AA77F9BEC0E9.png"
+	},
+	"upgradeSlots": 3,
+	"affinity": "Intellect",
+	"rarity": "Uncommon",
+	"effects": [{
+		"stat": "PhysicalResistanceRating",
+		"value": 22
+	}, {
+		"stat": "MaxEnergy",
+		"value": 75
+	}, {
+		"description": "{attr:shld} yourself and nearby Allies for 5 seconds, absorbing up to 50 + (10 u00d7 level) damage.",
+		"unique": true,
+		"cooldown": 120
+	}],
+	"maxedEffects": [{
+		"description": "+22 {attr:physar} and +22 {attr:enar} to nearby Allies.",
+		"passive": true,
+		"unique": true
+	}],
+	"background": "354DDA877AB4690EFFB45F9A346A3F43B02F3BB1",
+	"icon": "C50451E56AB2B98EB7D779BF94A13BE9467E9BD9"
+}]
